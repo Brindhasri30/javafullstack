@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>STUDENT</title>
+</head>
+<body>
+<form>
+<label>NAME</lable>
+<input type="text"><br>
+<label>DEPARTMENT</label>
+<input type="text"><br>
+<button>SAVE</button>
+</form>
+</body>
+</html>

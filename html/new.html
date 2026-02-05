@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>STUDENT</title>
+	</head>
+	<body>
+		<h2> ADD STUDENT</h2>
+		<form action="http://localhost:8080/students" method="post" target="result">
+			<label>NAME</lable>
+			<input type="text" name="name" placeholder="Enter your name"><br><br>
+			<label>DEPARTMENT</label>
+			<input type="text" name="department" placeholder="Enter your department"><br><br>
+			<button type="submit">SAVE</button>
+		</form>
+
+		<h2>STUDENT LIST</h2>
+		<iframe name="result" src="http://localhost:8080/students" width="600" height="400"></iframe>
+	</body>
+</html>
